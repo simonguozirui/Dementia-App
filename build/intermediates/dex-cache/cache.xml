@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/simon.guo/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/libs/libmuse_android.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="e756fe8826070e7f2a88030bf3dcfdf68a625905">
+        <dex dex="/Users/simon.guo/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/2/libmuse_android_6692c59e6fdc4901b49764c0398050a3fc68f48d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/simon.guo/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="bdf3107a5f82ba20d00d4786a76a41cdc95cf12c">
+        <dex dex="/Users/simon.guo/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_354a6908a1d50790e5f64eb97723151ef332f08a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/simon.guo/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="789c38f9fb5b065a474b2c2d575f4d43d5529011">
+        <dex dex="/Users/simon.guo/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_20f47114def915299beacb9bc65923198c5a4bb0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/simon.guo/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.11.0/840897fcd7223a8143f1d9b6f69714e7be34fd50/okio-1.11.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="840897fcd7223a8143f1d9b6f69714e7be34fd50">
+        <dex dex="/Users/simon.guo/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.11.0_1d9aeaf0a776b0bb43f836c7c2ba41d83cc376c3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/simon.guo/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="/Users/simon.guo/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.6.0_0cff14a74fafdad3d3ed32adbbc62f583da9f636/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/simon.guo/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/Users/simon.guo/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.1.1_999133bda74bb1821bec12230812a68a75724a3d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/simon.guo/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/Users/simon.guo/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.1.1_01bfee9ab8b8049016cc4834fac691110538ebfc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/simon.guo/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/Users/simon.guo/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.1.1_38ba1f875deefae947f3fc348c2031e16ca43109/classes.dex" />
+    </item>
+
+</items>

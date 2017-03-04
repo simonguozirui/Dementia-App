@@ -1,0 +1,7 @@
+#Sat Mar 04 17:39:50 EST 2017
+base.0=/Users/simon.guo/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_20f47114def915299beacb9bc65923198c5a4bb0
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/Users/simon.guo/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_354a6908a1d50790e5f64eb97723151ef332f08a/classes.dex
+base.1=/Users/simon.guo/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_354a6908a1d50790e5f64eb97723151ef332f08a
+file.0=/Users/simon.guo/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_20f47114def915299beacb9bc65923198c5a4bb0/classes.dex
