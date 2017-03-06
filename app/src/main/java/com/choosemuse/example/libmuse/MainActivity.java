@@ -89,6 +89,7 @@ public class MainActivity extends Activity implements OnClickListener{
      * Tag used for logging purposes.
      */
     private final String TAG = "TestLibMuseAndroid";
+    private long oldTime = 0;
 
     /**
      * The MuseManager is how you detect Muse headbands and receive notifications
@@ -461,31 +462,8 @@ public class MainActivity extends Activity implements OnClickListener{
      * getValue methods.
      */
 
-    public static final MediaType JSON
-            = MediaType.parse("application/json; charset=utf-8");
-
-    OkHttpClient client = new OkHttpClient();
-
-    String post(String url, String json) throws IOException {
-        RequestBody body = RequestBody.create(JSON, json);
-        Request request = new Request.Builder()
-                .url(url)
-                .post(body)
-                .build();
-
-        Response response = null;
-        try {
-            response = client.newCall(request).execute();
-            return response.body().string();
-        } finally {
-            if (response != null) {
-                response.close();
-            }
-        }
-    }
-
     String bowlingJson(double[] buffer) {
-        return "{ 'EEG1':" + buffer[0] + ", 'EEG2':" + buffer[1] + ", 'EEG3':" + buffer[2] + ", 'EEG4':" + buffer[3] + ", 'AUX_LEFT':" + buffer[4] + ", 'AUX_RIGHT':" + buffer[5] + "}";
+        return "{ \"EEG1\":" + buffer[0] + ", \"EEG2\":" + buffer[1] + ", \"EEG3\":" + buffer[2] + ", \"EEG4\":" + buffer[3] + ", \"AUX_LEFT\":" + buffer[4] + ", \"AUX_RIGHT\":" + buffer[5] + "}";
 
     }
 
@@ -500,9 +478,16 @@ public class MainActivity extends Activity implements OnClickListener{
         buffer[5] = p.getEegChannelValue(Eeg.AUX_RIGHT);
 
         //PostExample example = new PostExample();
-        /*String json = bowlingJson(buffer);
-        String response = post("https://muse.1lab.me/post", json);
-        System.out.println(response);*/
+        long newTime = System.currentTimeMillis();
+
+        if(newTime > oldTime + 1000) {
+            oldTime = newTime;
+            String json = bowlingJson(buffer);
+            PostMuse postmuse = new PostMuse();
+            postmuse.execute("https://muse.1lab.me/data", json);
+            //System.out.println(response);
+        }
+
     }
 
     private void getAccelValues(MuseDataPacket p) {
@@ -768,8 +753,8 @@ public class MainActivity extends Activity implements OnClickListener{
         public void receiveMuseDataPacket(final MuseDataPacket p, final Muse muse) {
             try {
                 activityRef.get().receiveMuseDataPacket(p, muse);
-            } catch(Exception e) {
-                System.out.println(e.getMessage());
+            } catch (Exception e) {
+                System.out.println(e);
             }
         }
 

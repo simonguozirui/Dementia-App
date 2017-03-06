@@ -1,7 +1,7 @@
-#Sat Mar 04 17:39:50 EST 2017
-base.0=/Users/simon.guo/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_20f47114def915299beacb9bc65923198c5a4bb0
+#Sun Mar 05 14:58:53 EST 2017
+base.0=/home/marcel/workspace/Dementia-App/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_3bf684a4d11505bff0605e9be357d66261aa938e
 renamed.1=classes2.dex
 renamed.0=classes.dex
-file.1=/Users/simon.guo/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_354a6908a1d50790e5f64eb97723151ef332f08a/classes.dex
-base.1=/Users/simon.guo/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_354a6908a1d50790e5f64eb97723151ef332f08a
-file.0=/Users/simon.guo/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_20f47114def915299beacb9bc65923198c5a4bb0/classes.dex
+file.1=/home/marcel/workspace/Dementia-App/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_2ba1a9321139f7d09c7e3a922b5870511b537406/classes.dex
+base.1=/home/marcel/workspace/Dementia-App/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_2ba1a9321139f7d09c7e3a922b5870511b537406
+file.0=/home/marcel/workspace/Dementia-App/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_3bf684a4d11505bff0605e9be357d66261aa938e/classes.dex
